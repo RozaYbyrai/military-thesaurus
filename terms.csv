@@ -1,10 +1,10 @@
 id,term_en,term_ru,definition_en,definition_ru,category
 1,Infantry,Пехота,Infantry — a weaponry concept used in military operations.,Пехота — оружие используемый в военных операциях.,Weaponry
 2,Main Battle Tank,Основной боевой танк,Main Battle Tank — a equipment concept used in military operations.,Основной боевой танк — оборудование используемый в военных операциях.,Equipment
-3,Armored Personnel Carrier,Бронированный транспортёр личного состава,Armored Personnel Carrier — a personnel concept used in military operations.,Бронированный транспортёр личного состава — персонал используемый в военных операциях.,Personnel
+3,Armored Personnel Carrier,Бронированный транспортёр личного состава,Armored Personnel Carrier — a personnel concept used in military operations.,Бронированный транспортёр личного состава — концепция персонала, используемая в военных операциях.,Personnel
 4,Infantry Fighting Vehicle,Боевая машина пехоты,Infantry Fighting Vehicle — a equipment concept used in military operations.,Боевая машина пехоты — оборудование используемый в военных операциях.,Equipment
-5,Self-Propelled Howitzer,Самоходная гаубица,Self-Propelled Howitzer — a intelligence concept used in military operations.,Самоходная гаубица — разведка используемый в военных операциях.,Intelligence
-6,Towed Howitzer,буксируемый howitzер,Towed Howitzer — a cybersecurity concept used in military operations.,буксируемый howitzер — кибербезопасность используемый в военных операциях.,Cybersecurity
+5,Self-Propelled Howitzer,Самоходная гаубица,Self-Propelled Howitzer — an intelligence concept used in military operations.,Самоходная гаубица — разведка используемый в военных операциях.,Intelligence
+6,Towed Howitzer,буксируемая гаубица,Towed Howitzer — a cybersecurity concept used in military operations.,буксируемый howitzер — концепция кибербезопасности, используемая в военных операциях.,Cybersecurity
 7,Multiple Launch Rocket System,Реактивная система залпового огня,Multiple Launch Rocket System — a weaponry concept used in military operations.,Реактивная система залпового огня — оружие используемый в военных операциях.,Weaponry
 8,Surface-to-Air Missile,поверхностный to air Ракета,Surface-to-Air Missile — a weaponry concept used in military operations.,поверхностный to air Ракета — оружие используемый в военных операциях.,Weaponry
 9,Short-Range Air Defense,shорt range air защита,Short-Range Air Defense — a naval concept used in military operations.,shорt range air защита — военно-морские силы используемый в военных операциях.,Naval
@@ -1038,3 +1038,4 @@ id,term_en,term_ru,definition_en,definition_ru,category
 1037,QRF,QRF,QRF — abbreviation for Quick Reaction Force.,QRF — аббревиатура для Сила быстрого реагирования.,Personnel
 1038,CAS,CAS,CAS — abbreviation for Close Air Support.,CAS — аббревиатура для Ближняя авиационная поддержка.,Support
 1039,ROE,ROE,ROE — abbreviation for Rules of Engagement.,ROE — аббревиатура для Правила ведения боя.,Doctrine
+
