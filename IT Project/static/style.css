@@ -1,0 +1,80 @@
+/* Relationship Section */
+.relationship-section {
+    background: #e8f4fc;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+    border-left: 4px solid #3498db;
+}
+
+.relationship-section h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.help-text {
+    display: block;
+    margin-top: 5px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.relationship-help {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+.relationship-help h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.relationship-help ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.relationship-help li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.relationship-help li:last-child {
+    border-bottom: none;
+}
+
+.relationship-help strong {
+    color: #3498db;
+    display: inline-block;
+    width: 60px;
+}
+
+/* Datalist styling */
+input[list] {
+    position: relative;
+}
+
+datalist {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+datalist option {
+    padding: 8px;
+    cursor: pointer;
+}
+
+datalist option:hover {
+    background: #f5f5f5;
+}

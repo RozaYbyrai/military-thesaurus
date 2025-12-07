@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Military Thesaurus</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .search-section, .add-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+        }
+        
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background: #2980b9;
+        }
+        
+        .message {
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        
+        .error {
+            background: #ffeaea;
+            color: #c0392b;
+            border-left: 4px solid #c0392b;
+        }
+        
+        .success {
+            background: #e8f6f3;
+            color: #27ae60;
+            border-left: 4px solid #27ae60;
+        }
+        
+        .results-section {
+            margin-top: 30px;
+        }
+        
+        .language-section {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .language-header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+        }
+        
+        .language-content {
+            padding: 20px;
+        }
+        
+        .scope-notes {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        
+        .note-list {
+            list-style: none;
+            margin-top: 10px;
+        }
+        
+        .note-list li {
+            padding: 8px;
+            background: white;
+            margin-bottom: 5px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .relations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .relation-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 15px;
+        }
+        
+        .relation-card h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        .relation-list {
+            list-style: none;
+        }
+        
+        .relation-list li {
+            padding: 8px;
+            background: #f8f9fa;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .lang-badge {
+            background: #3498db;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 768px) {
+            .relations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Military Thesaurus</h1>
+        
+        <!-- Messages -->
+        {% if error %}
+        <div class="message error">
+            {{ error }}
+        </div>
+        {% endif %}
+        
+        {% if success %}
+        <div class="message success">
+            {{ success }}
+        </div>
+        {% endif %}
+        
+        <!-- Search Section -->
+        <div class="search-section">
+            <h2>Search Term</h2>
+            <form method="POST" action="/search">
+                <div class="form-group">
+                    <label for="term">Term:</label>
+                    <input type="text" id="term" name="term" 
+                           value="{{ search_term if search_term else '' }}" 
+                           placeholder="Enter term (e.g., Military Operation)" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="language">Language:</label>
+                    <select id="language" name="language">
+                        <option value="EN" {% if search_language == 'EN' %}selected{% endif %}>English (EN)</option>
+                        <option value="RU" {% if search_language == 'RU' %}selected{% endif %}>Russian (RU)</option>
+                        <option value="KZ" {% if search_language == 'KZ' %}selected{% endif %}>Kazakh (KZ)</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+        <!-- Add Term Section -->
+<div class="add-section">
+    <h2>Add New Term</h2>
+    <form method="POST" action="/add-term">
+        <div class="form-group">
+            <label for="new_term">Term Name:</label>
+            <input type="text" id="new_term" name="term" 
+                   placeholder="Enter term name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="new_language">Language:</label>
+            <select id="new_language" name="language">
+                <option value="EN">English (EN)</option>
+                <option value="RU">Russian (RU)</option>
+                <option value="KZ">Kazakh (KZ)</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="scope_note">Scope Note (Optional):</label>
+            <textarea id="scope_note" name="scope_note" 
+                      placeholder="Enter description of the term..."></textarea>
+        </div>
+        
+        <!-- Relationship Section -->
+        <div class="relationship-section">
+            <h3>Add Relationship (Optional)</h3>
+            
+            <div class="form-group">
+                <label for="relation_type">Relationship Type:</label>
+                <select id="relation_type" name="relation_type">
+                    <option value="">-- Select Relationship --</option>
+                    <option value="BT">Broader Term (BT) - This term is narrower than...</option>
+                    <option value="NT">Narrower Term (NT) - This term is broader than...</option>
+                    <option value="RT">Related Term (RT) - This term is related to...</option>
+                    <option value="UF">Used For (UF) - This term is used for...</option>
+                    <option value="PT">Part Of (PT) - This term is part of...</option>
+                    <option value="LE">Language Equivalent (LE) - This term is equivalent to...</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="related_term">Related To:</label>
+                <input type="text" id="related_term" name="related_term" 
+                       list="existing-terms"
+                       placeholder="Search or select existing term">
+                <datalist id="existing-terms">
+                    {% if all_terms %}
+                        {% for term_name in all_terms %}
+                            <option value="{{ term_name }}">
+                        {% endfor %}
+                    {% endif %}
+                </datalist>
+                <small class="help-text">
+                    Start typing to search existing terms. Format: "term (language)" or just "term"
+                </small>
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Add Term & Relationship
+        </button>
+    </form>
+    
+    <div class="relationship-help">
+        <h4><i class="fas fa-info-circle"></i> Relationship Types:</h4>
+        <ul>
+            <li><strong>BT (Broader Term):</strong> This term is more specific than the related term</li>
+            <li><strong>NT (Narrower Term):</strong> This term is more general than the related term</li>
+            <li><strong>RT (Related Term):</strong> This term is conceptually related to the related term</li>
+            <li><strong>UF (Used For):</strong> This term can be used instead of the related term</li>
+            <li><strong>PT (Part Of):</strong> This term is a component of the related term</li>
+            <li><strong>LE (Language Equivalent):</strong> This term means the same in another language</li>
+        </ul>
+    </div>
+</div>
+        
+        <!-- Results Section -->
+        {% if results %}
+        <div class="results-section">
+            <h2>Search Results</h2>
+            
+            {% for lang_code, lang_data in results.items() %}
+            <div class="language-section">
+                <div class="language-header">
+                    {{ lang_data.term }} ({{ lang_data.language }})
+                </div>
+                
+                <div class="language-content">
+                    <!-- Scope Notes -->
+                    {% if lang_data.scope_notes %}
+                    <div class="scope-notes">
+                        <h3>Scope Notes:</h3>
+                        <ul class="note-list">
+                            {% for note in lang_data.scope_notes %}
+                            <li>{{ note }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    <!-- Relationships -->
+                    <div class="relations-grid">
+                        <!-- Broader Terms -->
+                        {% if lang_data.relations.BROADER_TERM %}
+                        <div class="relation-card">
+                            <h4>Broader Terms</h4>
+                            <ul class="relation-list">
+                                {% for rel in lang_data.relations.BROADER_TERM %}
+                                <li>
+                                    <span>{{ rel.term }}</span>
+                                    <span class="lang-badge">{{ rel.language }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Narrower Terms -->
+                        {% if lang_data.relations.NARROWER_TERM %}
+                        <div class="relation-card">
+                            <h4>Narrower Terms</h4>
+                            <ul class="relation-list">
+                                {% for rel in lang_data.relations.NARROWER_TERM %}
+                                <li>
+                                    <span>{{ rel.term }}</span>
+                                    <span class="lang-badge">{{ rel.language }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Related Terms -->
+                        {% if lang_data.relations.RELATED_TERM %}
+                        <div class="relation-card">
+                            <h4>Related Terms</h4>
+                            <ul class="relation-list">
+                                {% for rel in lang_data.relations.RELATED_TERM %}
+                                <li>
+                                    <span>{{ rel.term }}</span>
+                                    <span class="lang-badge">{{ rel.language }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Used For -->
+                        {% if lang_data.relations.USED_FOR %}
+                        <div class="relation-card">
+                            <h4>Used For</h4>
+                            <ul class="relation-list">
+                                {% for rel in lang_data.relations.USED_FOR %}
+                                <li>
+                                    <span>{{ rel.term }}</span>
+                                    <span class="lang-badge">{{ rel.language }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Part Of -->
+                        {% if lang_data.relations.PART_OF %}
+                        <div class="relation-card">
+                            <h4>Part Of</h4>
+                            <ul class="relation-list">
+                                {% for rel in lang_data.relations.PART_OF %}
+                                <li>
+                                    <span>{{ rel.term }}</span>
+                                    <span class="lang-badge">{{ rel.language }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Language Equivalents -->
+                        {% if lang_data.relations.LANGUAGE_EQUIVALENT %}
+                        <div class="relation-card">
+                            <h4>Language Equivalents</h4>
+                            <ul class="relation-list">
+                                {% for rel in lang_data.relations.LANGUAGE_EQUIVALENT %}
+                                <li>
+                                    <span>{{ rel.term }}</span>
+                                    <span class="lang-badge">{{ rel.language }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,774 @@
+﻿Term,RelationType,Value,Language
+Military Operation,SN,Coordinated military actions carried out to achieve strategic or tactical goals,EN
+Military Operation,SN,A structured sequence of combat or support activities executed by armed forces,EN
+Military Operation,SN,Planned and organized deployment of military resources in a specific area,EN
+Военная операция,SN,"Совокупность боевых и обеспечивающих действий, направленных на достижение военных целей",RU
+Военная операция,SN,Организованное применение вооружённых сил в рамках определённого плана,RU
+Военная операция,SN,Комплекс мероприятий боевого и тылового характера,RU
+Әскери операция,SN,Әскери мақсаттарға жету үшін жоспарланған және үйлестірілген іс-қимылдар жиынтығы,KZ
+Әскери операция,SN,Қарулы күштердің нақты міндетті орындау үшін қолданылатын шаралары,KZ
+Әскери операция,SN,Стратегиялық немесе тактикалық мақсатқа бағытталған әрекеттер жүйесі,KZ
+Military Operation,BT,Military Activity,EN
+Military Operation,BT,Armed Forces Operations,EN
+Military Operation,BT,Defense Operations,EN
+Военная операция,BT,Военная деятельность,RU
+Военная операция,BT,Операции вооружённых сил,RU
+Военная операция,BT,Оборонительные мероприятия,RU
+Әскери операция,BT,Әскери қызмет,KZ
+Әскери операция,BT,Қарулы күштер операциялары,KZ
+Әскери операция,BT,Қорғаныс операциялары,KZ
+Military Operation,NT,Combat Operation,EN
+Military Operation,NT,Peacekeeping Operation,EN
+Military Operation,NT,Special Forces Operation,EN
+Military Operation,NT,Offensive Operation,EN
+Military Operation,NT,Defensive Operation,EN
+Военная операция,NT,Боевая операция,RU
+Военная операция,NT,Миротворческая операция,RU
+Военная операция,NT,Спецоперация,RU
+Военная операция,NT,Наступательная операция,RU
+Военная операция,NT,Оборонительная операция,RU
+Әскери операция,NT,Ұрыс операциясы,KZ
+Әскери операция,NT,Бітімгерлік операция,KZ
+Әскери операция,NT,Арнайы операция,KZ
+Әскери операция,NT,Шабуыл операциясы,KZ
+Әскери операция,NT,Қорғаныс операциясы,KZ
+Military Operation,RT,Military Strategy,EN
+Military Operation,RT,Tactical Maneuver,EN
+Military Operation,RT,Logistical Support,EN
+Military Operation,RT,Rules of Engagement,EN
+Военная операция,RT,Военная стратегия,RU
+Военная операция,RT,Тактический манёвр,RU
+Военная операция,RT,Тыловое обеспечение,RU
+Военная операция,RT,Правила ведения боя,RU
+Әскери операция,RT,Әскери стратегия,KZ
+Әскери операция,RT,Тактикалық маневр,KZ
+Әскери операция,RT,Тылдық қолдау,KZ
+Әскери операция,RT,Ұрыс жүргізу ережелері,KZ
+Military Operation,UF,War Operation,EN
+Military Operation,UF,Military Campaign,EN
+Military Operation,UF,Operational Battle Action,EN
+Военная операция,UF,Операция на войне,RU
+Военная операция,UF,Военная кампания,RU
+Военная операция,UF,Боевые мероприятия,RU
+Әскери операция,UF,Соғыс операциясы,KZ
+Әскери операция,UF,Әскери кампания,KZ
+Әскери операция,UF,Ұрыс шаралары,KZ
+Military Operation,PT,Command Structure,EN
+Military Operation,PT,Operational Plan,EN
+Military Operation,PT,Rules and Procedures,EN
+Military Operation,PT,Force Deployment,EN
+Военная операция,PT,Командная структура,RU
+Военная операция,PT,Оперативный план,RU
+Военная операция,PT,Правила и регламенты,RU
+Военная операция,PT,Развёртывание сил,RU
+Әскери операция,PT,Басқару құрылымы,KZ
+Әскери операция,PT,Оперативтік жоспар,KZ
+Әскери операция,PT,Ережелер мен рәсімдер,KZ
+Әскери операция,PT,Күштерді орналастыру,KZ
+Military Operation,LE,Operation militaire (FR),EN
+Military Operation,LE,Operación militar (ES),EN
+Military Operation,LE,Militärische Operation (DE),EN
+Military Operation,LE,Военная операция@RU,EN
+Military Operation,LE,Әскери операция@KZ,EN
+Военная операция,LE,Operación militar (ES),RU
+Военная операция,LE,Operazione militare (IT),RU
+Военная операция,LE,Operation militaire (FR),RU
+Военная операция,LE,Military Operation@EN,RU
+Военная операция,LE,Әскери операция@KZ,RU
+Әскери операция,LE,Operación militar (ES),KZ
+Әскери операция,LE,Militärische Operation (DE),KZ
+Әскери операция,LE,Operation militaire (FR),KZ
+Әскери операция,LE,Military Operation@EN,KZ
+Әскери операция,LE,Военная операция@RU,KZ
+Military Activity,SN,General actions undertaken by armed forces in peacetime or wartime,EN
+Military Activity,SN,"Includes training, readiness, logistics, intelligence, and combat operations",EN
+Military Activity,SN,Broad category covering all activities of military organizations,EN
+Военная деятельность,SN,Общие действия вооружённых сил в мирное и военное время,RU
+Военная деятельность,SN,"Включает обучение, подготовку, логистику, разведку и боевые операции",RU
+Әскери қызмет,SN,Қарулы күштердің бейбіт және соғыс уақытындағы жалпы әрекеттері,KZ
+Әскери қызмет,SN,"Оқыту, дайындық, логистика, барлау және ұрыс операцияларын қамтиды",KZ
+Military Activity,NT,Training Activity,EN
+Military Activity,NT,Logistics Activity,EN
+Military Activity,NT,Intelligence Activity,EN
+Военная деятельность,NT,Учебная деятельность,RU
+Военная деятельность,NT,Логистическая деятельность,RU
+Военная деятельность,NT,Разведывательная деятельность,RU
+Әскери қызмет,NT,Оқыту шаралары,KZ
+Әскери қызмет,NT,Логистикалық іс-шаралар,KZ
+Әскери қызмет,NT,Барлау іс-шаралары,KZ
+Military Activity,RT,Military Readiness,EN
+Military Activity,RT,Troop Deployment,EN
+Military Activity,RT,Operational Planning,EN
+Военная деятельность,RT,Боевая готовность,RU
+Военная деятельность,RT,Развёртывание войск,RU
+Военная деятельность,RT,Оперативное планирование,RU
+Әскери қызмет,RT,Әскери дайындық,KZ
+Әскери қызмет,RT,Қарулы күштерді орналастыру,KZ
+Әскери қызмет,RT,Операциялық жоспарлау,KZ
+Military Activity,UF,Armed Forces Activity,EN
+Military Activity,UF,Defense Activity,EN
+Военная деятельность,UF,Деятельность вооружённых сил,RU
+Военная деятельность,UF,Оборонительная деятельность,RU
+Әскери қызмет,UF,Қарулы күштер қызметі,KZ
+Әскери қызмет,UF,Қорғаныс қызметі,KZ
+Military Activity,PT,Training Programs,EN
+Military Activity,PT,Readiness Assessments,EN
+Military Activity,PT,Routine Maneuvers,EN
+Military Activity,PT,Support Operations,EN
+Военная деятельность,PT,Учебные программы,RU
+Военная деятельность,PT,Оценка готовности,RU
+Военная деятельность,PT,Регулярные манёвры,RU
+Военная деятельность,PT,Операции поддержки,RU
+Әскери қызмет,PT,Оқыту бағдарламалары,KZ
+Әскери қызмет,PT,Дайындық бағалаулары,KZ
+Әскери қызмет,PT,Қайталанатын маневрлер,KZ
+Әскери қызмет,PT,Қолдау операциялары,KZ
+Military Activity,LE,Activité militaire (FR),EN
+Military Activity,LE,Военная деятельность@RU,EN
+Military Activity,LE,Әскери қызмет@KZ,EN
+Военная деятельность,LE,Activité militaire (FR),RU
+Военная деятельность,LE,Military Activity@EN,RU
+Военная деятельность,LE,Әскери қызмет@KZ,RU
+Әскери қызмет,LE,Activité militaire (FR),KZ
+Әскери қызмет,LE,Military Activity@EN,KZ
+Әскери қызмет,LE,Военная деятельность@RU,KZ
+Armed Forces Operations,SN,Actions carried out by national armed forces,EN
+Armed Forces Operations,SN,"Includes combat, peacekeeping, humanitarian, and support operations",EN
+Armed Forces Operations,SN,Organized and controlled activities of military units,EN
+Операции вооружённых сил,SN,"Действия, выполняемые национальными вооружёнными силами",RU
+Операции вооружённых сил,SN,"Включает боевые, миротворческие, гуманитарные и поддерживающие операции",RU
+Қарулы күштер операциялары,SN,Ұлттық қарулы күштер жүзеге асыратын әрекеттер,KZ
+Қарулы күштер операциялары,SN,"Ұрыс, бітімгерлік, гуманитарлық және қолдау операцияларын қамтиды",KZ
+Armed Forces Operations,NT,Joint Operation,EN
+Armed Forces Operations,NT,Peace Support Operation,EN
+Armed Forces Operations,NT,Humanitarian Operation,EN
+Операции вооружённых сил,NT,Совместная операция,RU
+Операции вооружённых сил,NT,Миротворческая операция,RU
+Операции вооружённых сил,NT,Гуманитарная операция,RU
+Қарулы күштер операциялары,NT,Біріккен операция,KZ
+Қарулы күштер операциялары,NT,Бітімгерлік операция,KZ
+Қарулы күштер операциялары,NT,Гуманитарлық операция,KZ
+Armed Forces Operations,RT,Force Deployment,EN
+Armed Forces Operations,RT,Operational Command,EN
+Armed Forces Operations,RT,Logistical Operations,EN
+Операции вооружённых сил,RT,Развёртывание сил,RU
+Операции вооружённых сил,RT,Оперативное командование,RU
+Операции вооружённых сил,RT,Логистические операции,RU
+Қарулы күштер операциялары,RT,Күштерді орналастыру,KZ
+Қарулы күштер операциялары,RT,Оперативтік басқару,KZ
+Қарулы күштер операциялары,RT,Логистикалық операциялар,KZ
+Armed Forces Operations,UF,Military Operations,EN
+Armed Forces Operations,UF,Forces Operations,EN
+Операции вооружённых сил,UF,Военные операции,RU
+Операции вооружённых сил,UF,Действия сил,RU
+Қарулы күштер операциялары,UF,Әскери операциялар,KZ
+Қарулы күштер операциялары,UF,Күштер операциялары,KZ
+Armed Forces Operations,PT,Command Structure,EN
+Armed Forces Operations,PT,Operational Units,EN
+Armed Forces Operations,PT,Support Units,EN
+Операции вооружённых сил,PT,Командная структура,RU
+Операции вооружённых сил,PT,Оперативные подразделения,RU
+Операции вооружённых сил,PT,Поддерживающие подразделения,RU
+Қарулы күштер операциялары,PT,Басқару құрылымы,KZ
+Қарулы күштер операциялары,PT,Операциялық бөлімдер,KZ
+Қарулы күштер операциялары,PT,Қолдау бөлімдері,KZ
+Armed Forces Operations,LE,Opérations des forces armées (FR),EN
+Armed Forces Operations,LE,Операции вооружённых сил@RU,EN
+Armed Forces Operations,LE,Қарулы күштер операциялары@KZ,EN
+Операции вооружённых сил,LE,Opérations des forces armées (FR),RU
+Операции вооружённых сил,LE,Armed Forces Operations@EN,RU
+Операции вооружённых сил,LE,Қарулы күштер операциялары@KZ,RU
+Қарулы күштер операциялары,LE,Opérations des forces armées (FR),KZ
+Қарулы күштер операциялары,LE,Armed Forces Operations@EN,KZ
+Қарулы күштер операциялары,LE,Операции вооружённых сил@RU,KZ
+Training Activity,BT,Military Activity,EN
+Учебная деятельность,BT,Военная деятельность,RU
+Оқыту шаралары,BT,Әскери қызмет,KZ
+Training Activity,SN,Organized programs to improve military skills and readiness,EN
+Training Activity,SN,"Includes drills, exercises, simulations, and classroom instruction",EN
+Учебная деятельность,SN,Организованные программы для повышения боевой подготовки,RU
+Учебная деятельность,SN,"Включает учения, тренировки, симуляции и занятия в классе",RU
+Оқыту шаралары,SN,Әскери дағдылар мен дайындықты арттыруға арналған ұйымдастырылған бағдарламалар,KZ
+Оқыту шаралары,SN,"Сынақтар, жаттығулар, симуляциялар және сабақтардан тұрады",KZ
+Training Activity,NT,Physical Training,EN
+Training Activity,NT,Classroom Instruction,EN
+Training Activity,NT,Simulation Exercises,EN
+Учебная деятельность,NT,Физическая подготовка,RU
+Учебная деятельность,NT,Занятия в классе,RU
+Учебная деятельность,NT,Симуляционные упражнения,RU
+Оқыту шаралары,NT,Дене шынықтыру,KZ
+Оқыту шаралары,NT,Сыныптағы сабақтар,KZ
+Оқыту шаралары,NT,Симуляциялық жаттығулар,KZ
+Training Activity,RT,Readiness Assessment,EN
+Training Activity,RT,Tactical Drills,EN
+Учебная деятельность,RT,Оценка готовности,RU
+Учебная деятельность,RT,Тактические упражнения,RU
+Оқыту шаралары,RT,Дайындық бағалауы,KZ
+Оқыту шаралары,RT,Тактикалық жаттығулар,KZ
+Training Activity,UF,Military Training,EN
+Training Activity,UF,Skill Development,EN
+Учебная деятельность,UF,Военная подготовка,RU
+Учебная деятельность,UF,Развитие навыков,RU
+Оқыту шаралары,UF,Әскери дайындық,KZ
+Оқыту шаралары,UF,Дағдыны дамыту,KZ
+Training Activity,PT,Drills,EN
+Training Activity,PT,Exercise Programs,EN
+Training Activity,PT,Instruction Manuals,EN
+Учебная деятельность,PT,Учебные упражнения,RU
+Учебная деятельность,PT,Программы тренировок,RU
+Учебная деятельность,PT,Учебные материалы,RU
+Оқыту шаралары,PT,Жаттығулар,KZ
+Оқыту шаралары,PT,Жаттығу бағдарламалары,KZ
+Оқыту шаралары,PT,Оқу құралдары,KZ
+Training Activity,LE,Activité de formation (FR),EN
+Training Activity,LE,Учебная деятельность@RU,EN
+Training Activity,LE,Оқыту шаралары@KZ,EN
+Учебная деятельность,LE,Activité de formation (FR),RU
+Учебная деятельность,LE,Training Activity@EN,RU
+Учебная деятельность,LE,Оқыту шаралары@KZ,RU
+Оқыту шаралары,LE,Activité de formation (FR),KZ
+Оқыту шаралары,LE,Training Activity@EN,KZ
+Оқыту шаралары,LE,Учебная деятельность@RU,KZ
+Logistics Activity,BT,Military Activity,EN
+Логистическая деятельность,BT,Военная деятельность,RU
+Логистикалық іс-шаралар,BT,Әскери қызмет,KZ
+Logistics Activity,SN,"Management of resources, supplies, and transportation for military operations",EN
+Logistics Activity,SN,"Includes supply chains, equipment maintenance, and transportation planning",EN
+Логистическая деятельность,SN,"Управление ресурсами, снабжением и транспортом",RU
+Логистическая деятельность,SN,"Включает цепочки поставок, обслуживание техники и планирование перевозок",RU
+Логистикалық іс-шаралар,SN,"Әскери операцияларға ресурстарды, жабдықтарды және транспортты басқару",KZ
+Логистикалық іс-шаралар,SN,"Жабдықтау тізбектері, техниканы жөндеу және тасымалдауды жоспарлау",KZ
+Logistics Activity,NT,Supply Chain Management,EN
+Logistics Activity,NT,Transport Planning,EN
+Logistics Activity,NT,Equipment Maintenance,EN
+Логистическая деятельность,NT,Управление цепочками поставок,RU
+Логистическая деятельность,NT,Планирование транспортировки,RU
+Логистическая деятельность,NT,Обслуживание оборудования,RU
+Логистикалық іс-шаралар,NT,Жабдықтау тізбегін басқару,KZ
+Логистикалық іс-шаралар,NT,Тасымалдауды жоспарлау,KZ
+Логистикалық іс-шаралар,NT,Жабдықты техникалық қызмет көрсету,KZ
+Logistics Activity,RT,Operational Readiness,EN
+Logistics Activity,RT,Resource Allocation,EN
+Логистическая деятельность,RT,Оперативная готовность,RU
+Логистическая деятельность,RT,Распределение ресурсов,RU
+Логистикалық іс-шаралар,RT,Операциялық дайындық,KZ
+Логистикалық іс-шаралар,RT,Ресурстарды бөлу,KZ
+Logistics Activity,UF,Supply Operations,EN
+Logistics Activity,UF,Maintenance Activity,EN
+Логистическая деятельность,UF,Операции снабжения,RU
+Логистическая деятельность,UF,Техническое обслуживание,RU
+Логистикалық іс-шаралар,UF,Жабдықтау операциялары,KZ
+Логистикалық іс-шаралар,UF,Техникалық қызмет,KZ
+Logistics Activity,PT,Warehousing,EN
+Logistics Activity,PT,Transport Units,EN
+Logistics Activity,PT,Inventory Management,EN
+Логистическая деятельность,PT,Склады,RU
+Логистическая деятельность,PT,Транспортные подразделения,RU
+Логистическая деятельность,PT,Управление запасами,RU
+Логистикалық іс-шаралар,PT,Қоймалар,KZ
+Логистикалық іс-шаралар,PT,Тасымалдау бөлімдері,KZ
+Логистикалық іс-шаралар,PT,Қорларды басқару,KZ
+Logistics Activity,LE,Activité logistique (FR),EN
+Logistics Activity,LE,Логистическая деятельность@RU,EN
+Logistics Activity,LE,Логистикалық іс-шаралар@KZ,EN
+Логистическая деятельность,LE,Activité logistique (FR),RU
+Логистическая деятельность,LE,Logistics Activity@EN,RU
+Логистическая деятельность,LE,Логистикалық іс-шаралар@KZ,RU
+Логистикалық іс-шаралар,LE,Activité logistique (FR),KZ
+Логистикалық іс-шаралар,LE,Logistics Activity@EN,KZ
+Логистикалық іс-шаралар,LE,Логистическая деятельность@RU,KZ
+Intelligence Activity,BT,Military Activity,EN
+Разведывательная деятельность,BT,Военная деятельность,RU
+Барлау іс-шаралары,BT,Әскери қызмет,KZ
+Intelligence Activity,SN,"Collection, analysis, and dissemination of information relevant to military operations",EN
+Intelligence Activity,SN,"Includes reconnaissance, signals intelligence, and counterintelligence",EN
+Разведывательная деятельность,SN,"Сбор, анализ и распространение информации о противнике",RU
+Разведывательная деятельность,SN,"Включает разведку, радиотехническую разведку и контрразведку",RU
+Барлау іс-шаралары,SN,"Әскери операцияларға қатысты ақпаратты жинау, талдау және тарату",KZ
+Барлау іс-шаралары,SN,"Барлау, сигналдық барлау және контрбарлау жұмыстарын қамтиды",KZ
+Intelligence Activity,NT,HUMINT,EN
+Intelligence Activity,NT,SIGINT,EN
+Intelligence Activity,NT,Counterintelligence,EN
+Разведывательная деятельность,NT,Человеческая разведка,RU
+Разведывательная деятельность,NT,Радиоразведка,RU
+Разведывательная деятельность,NT,Контрразведка,RU
+Барлау іс-шаралары,NT,Адам барлауы,KZ
+Барлау іс-шаралары,NT,Сигналдық барлау,KZ
+Барлау іс-шаралары,NT,Контрбарлау,KZ
+Intelligence Activity,RT,Operational Intelligence,EN
+Intelligence Activity,RT,Strategic Intelligence,EN
+Разведывательная деятельность,RT,Оперативная разведка,RU
+Разведывательная деятельность,RT,Стратегическая разведка,RU
+Барлау іс-шаралары,RT,Операциялық барлау,KZ
+Барлау іс-шаралары,RT,Стратегиялық барлау,KZ
+Intelligence Activity,UF,Reconnaissance,EN
+Intelligence Activity,UF,Information Gathering,EN
+Разведывательная деятельность,UF,Разведка,RU
+Разведывательная деятельность,UF,Сбор информации,RU
+Барлау іс-шаралары,UF,Барлау,KZ
+Барлау іс-шаралары,UF,Ақпарат жинау,KZ
+Intelligence Activity,PT,Recon Missions,EN
+Intelligence Activity,PT,Analysis Reports,EN
+Intelligence Activity,PT,Surveillance Operations,EN
+Разведывательная деятельность,PT,Разведывательные миссии,RU
+Разведывательная деятельность,PT,Аналитические отчёты,RU
+Разведывательная деятельность,PT,Операции наблюдения,RU
+Барлау іс-шаралары,PT,Барлау миссиялары,KZ
+Барлау іс-шаралары,PT,Талдау есептері,KZ
+Барлау іс-шаралары,PT,Бақылау операциялары,KZ
+Intelligence Activity,LE,Activité de renseignement (FR),EN
+Intelligence Activity,LE,Разведывательная деятельность@RU,EN
+Intelligence Activity,LE,Барлау іс-шаралары@KZ,EN
+Разведывательная деятельность,LE,Activité de renseignement (FR),RU
+Разведывательная деятельность,LE,Intelligence Activity@EN,RU
+Разведывательная деятельность,LE,Барлау іс-шаралары@KZ,RU
+Барлау іс-шаралары,LE,Activité de renseignement (FR),KZ
+Барлау іс-шаралары,LE,Intelligence Activity@EN,KZ
+Барлау іс-шаралары,LE,Разведывательная деятельность@RU,KZ
+Combat Operation,BT,Military Operation,EN
+Боевые действия,BT,Военная операция,RU
+Ұрыс операциясы,BT,Әскери операция,KZ
+Combat Operation,SN,Planned and executed operations involving direct combat with enemy forces,EN
+Боевые действия,SN,Плановые и выполняемые операции с прямым столкновением с противником,RU
+Ұрыс операциясы,SN,Қарсылас күштермен тікелей шайқасқа бағытталған жоспарлы операциялар,KZ
+Combat Operation,NT,Offensive Operation,EN
+Combat Operation,NT,Defensive Operation,EN
+Боевые действия,NT,Наступательная операция,RU
+Боевые действия,NT,Оборонительная операция,RU
+Ұрыс операциясы,NT,Шабуыл операциясы,KZ
+Ұрыс операциясы,NT,Қорғаныс операциясы,KZ
+Combat Operation,RT,Tactical Engagement,EN
+Combat Operation,RT,Operational Maneuver,EN
+Боевые действия,RT,Тактическое столкновение,RU
+Боевые действия,RT,Оперативный манёвр,RU
+Ұрыс операциясы,RT,Тактикалық шайқас,KZ
+Ұрыс операциясы,RT,Операциялық манёвр,KZ
+Combat Operation,UF,Attack Operation,EN
+Combat Operation,UF,Combat Mission,EN
+Боевые действия,UF,Операция атаки,RU
+Боевые действия,UF,Боевое задание,RU
+Ұрыс операциясы,UF,Шабуыл операциясы,KZ
+Ұрыс операциясы,UF,Соғыс миссиясы,KZ
+Combat Operation,PT,Engagements,EN
+Combat Operation,PT,Battles,EN
+Боевые действия,PT,Сражения,RU
+Боевые действия,PT,Бои,RU
+Ұрыс операциясы,PT,Шайқастар,KZ
+Ұрыс операциясы,PT,Күрестер,KZ
+Combat Operation,LE,Opération de combat (FR),EN
+Combat Operation,LE,Боевые действия@RU,EN
+Combat Operation,LE,Ұрыс операциясы@KZ,EN
+Боевые действия,LE,Opération de combat (FR),RU
+Боевые действия,LE,Combat Operation@EN,RU
+Боевые действия,LE,Ұрыс операциясы@KZ,RU
+Ұрыс операциясы,LE,Opération de combat (FR),KZ
+Ұрыс операциясы,LE,Combat Operation@EN,KZ
+Ұрыс операциясы,LE,Боевые действия@RU,KZ
+Peacekeeping Operation,BT,Military Operation,EN
+Миротворческая операция,BT,Военная операция,RU
+Бітімгерлік операция,BT,Әскери операция,KZ
+Peacekeeping Operation,SN,Military operations aimed at maintaining or enforcing peace agreements and stability in conflict zones,EN
+Миротворческая операция,SN,"Военные операции, направленные на поддержание или обеспечение мира и стабильности в зонах конфликта",RU
+Бітімгерлік операция,SN,Дағдарыс аймақтарында бейбіт келісімдер мен тұрақтылықты қамтамасыз етуге бағытталған әскери операциялар,KZ
+Peacekeeping Operation,NT,Patrol Missions,EN
+Peacekeeping Operation,NT,Civil Protection,EN
+Миротворческая операция,NT,Патрульные миссии,RU
+Миротворческая операция,NT,Защита гражданского населения,RU
+Бітімгерлік операция,NT,Патрульдік миссиялар,KZ
+Бітімгерлік операция,NT,Азаматтық қорғау,KZ
+Peacekeeping Operation,RT,Humanitarian Assistance,EN
+Peacekeeping Operation,RT,Conflict Mediation,EN
+Миротворческая операция,RT,Гуманитарная помощь,RU
+Миротворческая операция,RT,Посредничество в конфликте,RU
+Бітімгерлік операция,RT,Гуманитарлық көмек,KZ
+Бітімгерлік операция,RT,Дағдарысты медиация,KZ
+Peacekeeping Operation,UF,Peace Operation,EN
+Peacekeeping Operation,UF,Stability Operation,EN
+Миротворческая операция,UF,Операция по поддержанию мира,RU
+Миротворческая операция,UF,Операция стабилизации,RU
+Бітімгерлік операция,UF,Бейбітшілік операциясы,KZ
+Бітімгерлік операция,UF,Тұрақтылық операциясы,KZ
+Peacekeeping Operation,PT,Checkpoints,EN
+Peacekeeping Operation,PT,Observation Posts,EN
+Миротворческая операция,PT,Контрольные пункты,RU
+Миротворческая операция,PT,Наблюдательные посты,RU
+Бітімгерлік операция,PT,Бақылау бекеттері,KZ
+Бітімгерлік операция,PT,Бақылау посттары,KZ
+Peacekeeping Operation,LE,Opération de maintien de la paix (FR),EN
+Peacekeeping Operation,LE,Миротворческая операция@RU,EN
+Peacekeeping Operation,LE,Бітімгерлік операция@KZ,EN
+Миротворческая операция,LE,Opération de maintien de la paix (FR),RU
+Миротворческая операция,LE,Peacekeeping Operation@EN,RU
+Миротворческая операция,LE,Бітімгерлік операция@KZ,RU
+Бітімгерлік операция,LE,Opération de maintien de la paix (FR),KZ
+Бітімгерлік операция,LE,Peacekeeping Operation@EN,KZ
+Бітімгерлік операция,LE,Миротворческая операция@RU,KZ
+Special Forces Operation,BT,Military Operation,EN
+Операция спецназа,BT,Военная операция,RU
+Арнайы күштер операциясы,BT,Әскери операция,KZ
+Special Forces Operation,SN,Operations conducted by specialized military units for high-risk or strategic objectives,EN
+Операция спецназа,SN,"Операции, выполняемые специализированными военными подразделениями для выполнения сложных или стратегических задач",RU
+Арнайы күштер операциясы,SN,Жоғары қауіп-қатер немесе стратегиялық мақсаттарға арналған арнайы әскери бөлімшелердің операциялары,KZ
+Special Forces Operation,NT,Covert Mission,EN
+Special Forces Operation,NT,Direct Action,EN
+Операция спецназа,NT,Скрытая миссия,RU
+Операция спецназа,NT,Прямое действие,RU
+Арнайы күштер операциясы,NT,Жасырын миссия,KZ
+Арнайы күштер операциясы,NT,Тікелей әрекет,KZ
+Special Forces Operation,RT,Tactical Recon,EN
+Special Forces Operation,RT,Targeted Strike,EN
+Операция спецназа,RT,Тактическая разведка,RU
+Операция спецназа,RT,Прицельный удар,RU
+Арнайы күштер операциясы,RT,Тактикалық барлау,KZ
+Арнайы күштер операциясы,RT,Мақсатты соққы,KZ
+Special Forces Operation,UF,Elite Operation,EN
+Special Forces Operation,UF,Special Mission,EN
+Операция спецназа,UF,Элитная операция,RU
+Операция спецназа,UF,Специальная миссия,RU
+Арнайы күштер операциясы,UF,Элиталық операция,KZ
+Арнайы күштер операциясы,UF,Арнайы миссия,KZ
+Special Forces Operation,PT,Sabotage,EN
+Special Forces Operation,PT,Hostage Rescue,EN
+Операция спецназа,PT,Диверсия,RU
+Операция спецназа,PT,Спасение заложников,RU
+Арнайы күштер операциясы,PT,Саботаж,KZ
+Арнайы күштер операциясы,PT,Байлау құтқару,KZ
+Special Forces Operation,LE,Opération des forces spéciales (FR),EN
+Special Forces Operation,LE,Операция спецназа@RU,EN
+Special Forces Operation,LE,Арнайы күштер операциясы@KZ,EN
+Операция спецназа,LE,Opération des forces spéciales (FR),RU
+Операция спецназа,LE,Special Forces Operation@EN,RU
+Операция спецназа,LE,Арнайы күштер операциясы@KZ,RU
+Арнайы күштер операциясы,LE,Opération des forces spéciales (FR),KZ
+Арнайы күштер операциясы,LE,Special Forces Operation@EN,KZ
+Арнайы күштер операциясы,LE,Операция спецназа@RU,KZ
+Offensive Operation,BT,Military Operation,EN
+Наступательная операция,BT,Военная операция,RU
+Шабуыл операциясы,BT,Әскери операция,KZ
+Offensive Operation,SN,Planned military operation aimed at attacking enemy positions or gaining territory,EN
+Наступательная операция,SN,"Военная операция, направленная на атаку позиций противника или захват территории",RU
+Шабуыл операциясы,SN,Қарсылас позицияларын шабуылдау немесе территорияны алу мақсатындағы жоспарланған әскери операция,KZ
+Offensive Operation,NT,Assault,EN
+Offensive Operation,NT,Penetration,EN
+Наступательная операция,NT,Штурм,RU
+Наступательная операция,NT,Прорыв,RU
+Шабуыл операциясы,NT,Шабуыл,KZ
+Шабуыл операциясы,NT,Прорыв,KZ
+Offensive Operation,RT,Strike Planning,EN
+Offensive Operation,RT,Flanking Maneuver,EN
+Наступательная операция,RT,Планирование удара,RU
+Наступательная операция,RT,Фланговый манёвр,RU
+Шабуыл операциясы,RT,Соққы жоспары,KZ
+Шабуыл операциясы,RT,Қапталдан манёвр,KZ
+Offensive Operation,UF,Attack Operation,EN
+Offensive Operation,UF,Advance Operation,EN
+Наступательная операция,UF,Операция атаки,RU
+Наступательная операция,UF,Наступательная операция,RU
+Шабуыл операциясы,UF,Шабуыл операциясы,KZ
+Шабуыл операциясы,UF,Алға жылжу операциясы,KZ
+Offensive Operation,PT,Combat Engagements,EN
+Offensive Operation,PT,Penetration Units,EN
+Наступательная операция,PT,Боевые столкновения,RU
+Наступательная операция,PT,Прорывные подразделения,RU
+Шабуыл операциясы,PT,Шайқастар,KZ
+Шабуыл операциясы,PT,Прорыв бөлімдері,KZ
+Offensive Operation,LE,Opération offensive (FR),EN
+Offensive Operation,LE,Наступательная операция@RU,EN
+Offensive Operation,LE,Шабуыл операциясы@KZ,EN
+Наступательная операция,LE,Opération offensive (FR),RU
+Наступательная операция,LE,Offensive Operation@EN,RU
+Наступательная операция,LE,Шабуыл операциясы@KZ,RU
+Шабуыл операциясы,LE,Opération offensive (FR),KZ
+Шабуыл операциясы,LE,Offensive Operation@EN,KZ
+Шабуыл операциясы,LE,Наступательная операция@RU,KZ
+Defensive Operation,BT,Military Operation,EN
+Оборонительная операция,BT,Военная операция,RU
+Қорғаныс операциясы,BT,Әскери операция,KZ
+Defensive Operation,SN,Planned military operation aimed at defending positions or repelling enemy attacks,EN
+Оборонительная операция,SN,"Военная операция, направленная на защиту позиций или отражение атак противника",RU
+Қорғаныс операциясы,SN,Қарсылас шабуылдарын тойтару немесе позицияларды қорғауға арналған жоспарланған әскери операция,KZ
+Defensive Operation,NT,Fortification,EN
+Defensive Operation,NT,Counterattack,EN
+Оборонительная операция,NT,Фортификация,RU
+Оборонительная операция,NT,Контратака,RU
+Қорғаныс операциясы,NT,Қорғаныс бекіністері,KZ
+Қорғаныс операциясы,NT,Қарсы шабуыл,KZ
+Defensive Operation,RT,Early Warning,EN
+Defensive Operation,RT,Area Defense,EN
+Оборонительная операция,RT,Раннее предупреждение,RU
+Оборонительная операция,RT,Оборона территории,RU
+Қорғаныс операциясы,RT,Алдын ала ескерту,KZ
+Қорғаныс операциясы,RT,Аудан қорғанысы,KZ
+Defensive Operation,UF,Protective Operation,EN
+Defensive Operation,UF,Defense Action,EN
+Оборонительная операция,UF,Оборонительная операция,RU
+Оборонительная операция,UF,Защитное действие,RU
+Қорғаныс операциясы,UF,Қорғаныс операциясы,KZ
+Қорғаныс операциясы,UF,Қорғаныс әрекеті,KZ
+Defensive Operation,PT,Defensive Positions,EN
+Defensive Operation,PT,Counterattack Units,EN
+Оборонительная операция,PT,Оборонительные позиции,RU
+Оборонительная операция,PT,Подразделения контратаки,RU
+Қорғаныс операциясы,PT,Қорғаныс позициялары,KZ
+Қорғаныс операциясы,PT,Қарсы шабуыл бөлімдері,KZ
+Defensive Operation,LE,Opération défensive (FR),EN
+Defensive Operation,LE,Оборонительная операция@RU,EN
+Defensive Operation,LE,Қорғаныс операциясы@KZ,EN
+Оборонительная операция,LE,Opération défensive (FR),RU
+Оборонительная операция,LE,Defensive Operation@EN,RU
+Оборонительная операция,LE,Қорғаныс операциясы@KZ,RU
+Қорғаныс операциясы,LE,Opération défensive (FR),KZ
+Қорғаныс операциясы,LE,Defensive Operation@EN,KZ
+Қорғаныс операциясы,LE,Оборонительная операция@RU,KZ
+Military Strategy,BT,Military Operation,EN
+Военная стратегия,BT,Военная операция,RU
+Әскери стратегия,BT,Әскери операция,KZ
+Military Strategy,SN,"A plan or approach to achieve military objectives, guiding the deployment and use of forces",EN
+Военная стратегия,SN,"План или подход для достижения военных целей, направляющий использование сил",RU
+Әскери стратегия,SN,"Әскери мақсаттарға жетуге бағытталған жоспар немесе тәсіл, күштерді қолдануды басқарады",KZ
+Military Strategy,RT,Military Operation,EN
+Военная стратегия,RT,Военная операция,RU
+Әскери стратегия,RT,Әскери операция,KZ
+Military Strategy,NT,Offensive Strategy,EN
+Military Strategy,NT,Defensive Strategy,EN
+Военная стратегия,NT,Наступательная стратегия,RU
+Военная стратегия,NT,Оборонительная стратегия,RU
+Әскери стратегия,NT,Шабуыл стратегиясы,KZ
+Әскери стратегия,NT,Қорғаныс стратегиясы,KZ
+Military Strategy,UF,Tactics Planning,EN
+Military Strategy,UF,Operational Strategy,EN
+Военная стратегия,UF,Планирование тактики,RU
+Военная стратегия,UF,Оперативная стратегия,RU
+Әскери стратегия,UF,Тактикалық жоспарлау,KZ
+Әскери стратегия,UF,Операциялық стратегия,KZ
+Military Strategy,PT,Campaign Plans,EN
+Military Strategy,PT,Force Deployment,EN
+Военная стратегия,PT,Планы кампаний,RU
+Военная стратегия,PT,Развёртывание войск,RU
+Әскери стратегия,PT,Науқан жоспарлары,KZ
+Әскери стратегия,PT,Күштерді орналастыру,KZ
+Military Strategy,LE,Stratégie militaire (FR),EN
+Military Strategy,LE,Военная стратегия@RU,EN
+Military Strategy,LE,Әскери стратегия@KZ,EN
+Военная стратегия,LE,Stratégie militaire (FR),RU
+Военная стратегия,LE,Military Strategy@EN,RU
+Военная стратегия,LE,Әскери стратегия@KZ,RU
+Әскери стратегия,LE,Stratégie militaire (FR),KZ
+Әскери стратегия,LE,Military Strategy@EN,KZ
+Әскери стратегия,LE,Военная стратегия@RU,KZ
+Tactical Maneuver,BT,Military Operation,EN
+Тактический манёвр,BT,Военная операция,RU
+Тактикалық манёвр,BT,Әскери операция,KZ
+Tactical Maneuver,SN,Planned movement of military units to gain an advantage over the enemy,EN
+Тактический манёвр,SN,Плановое перемещение войск для получения преимущества над противником,RU
+Тактикалық манёвр,SN,Қарсыластарға үстемдік жасау үшін әскерлерді жоспарлы қозғалысы,KZ
+Tactical Maneuver,RT,Military Operation,EN
+Тактический манёвр,RT,Военная операция,RU
+Тактикалық манёвр,RT,Әскери операция,KZ
+Tactical Maneuver,NT,Flanking Maneuver,EN
+Tactical Maneuver,NT,Encirclement Maneuver,EN
+Тактический манёвр,NT,Фланговый манёвр,RU
+Тактический манёвр,NT,Окружение,RU
+Тактикалық манёвр,NT,Қапталдан шабуыл,KZ
+Тактикалық манёвр,NT,Орталықтан қоршау,KZ
+Tactical Maneuver,UF,Field Maneuver,EN
+Tactical Maneuver,UF,Unit Movement,EN
+Тактический манёвр,UF,Полевой манёвр,RU
+Тактический манёвр,UF,Перемещение подразделений,RU
+Тактикалық манёвр,UF,Алғашқы манёвр,KZ
+Тактикалық манёвр,UF,Бөлімшелер қозғалысы,KZ
+Tactical Maneuver,PT,Maneuver Planning,EN
+Tactical Maneuver,PT,Execution Units,EN
+Тактический манёвр,PT,Планирование манёвра,RU
+Тактический манёвр,PT,Исполнители,RU
+Тактикалық манёвр,PT,Манёврді жоспарлау,KZ
+Тактикалық манёвр,PT,Орындаушы бөлімшелер,KZ
+Tactical Maneuver,LE,Manœuvre tactique (FR),EN
+Tactical Maneuver,LE,Тактический манёвр@RU,EN
+Tactical Maneuver,LE,Тактикалық манёвр@KZ,EN
+Тактический манёвр,LE,Manœuvre tactique (FR),RU
+Тактический манёвр,LE,Tactical Maneuver@EN,RU
+Тактический манёвр,LE,Тактикалық манёвр@KZ,RU
+Тактикалық манёвр,LE,Manœuvre tactique (FR),KZ
+Тактикалық манёвр,LE,Tactical Maneuver@EN,KZ
+Тактикалық манёвр,LE,Тактический манёвр@RU,KZ
+Logistical Support,BT,Military Operation,EN
+Логистическая поддержка,BT,Военная операция,RU
+Логистикалық қамтамасыз ету,BT,Әскери операция,KZ
+Logistical Support,SN,"Provision of resources, supplies, transportation, and services necessary for military operations",EN
+Логистическая поддержка,SN,"Обеспечение ресурсами, снабжением, транспортом и услугами, необходимыми для операций",RU
+Логистикалық қамтамасыз ету,SN,"Әскери операцияларға қажетті ресурстар, жабдықтау, көлік және қызметтерді қамтамасыз ету",KZ
+Logistical Support,RT,Military Operation,EN
+Логистическая поддержка,RT,Военная операция,RU
+Логистикалық қамтамасыз ету,RT,Әскери операция,KZ
+Logistical Support,NT,Supply Chain,EN
+Logistical Support,NT,Transport Operations,EN
+Логистическая поддержка,NT,Цепочка поставок,RU
+Логистическая поддержка,NT,Транспортные операции,RU
+Логистикалық қамтамасыз ету,NT,Жабдықтау тізбегі,KZ
+Логистикалық қамтамасыз ету,NT,Тасымалдау операциялары,KZ
+Logistical Support,UF,Resource Support,EN
+Logistical Support,UF,Maintenance Support,EN
+Логистическая поддержка,UF,Поддержка ресурсов,RU
+Логистическая поддержка,UF,Обслуживание,RU
+Логистикалық қамтамасыз ету,UF,Ресурстық қолдау,KZ
+Логистикалық қамтамасыз ету,UF,Техникалық қызмет көрсету,KZ
+Logistical Support,PT,Warehousing,EN
+Logistical Support,PT,Transport Units,EN
+Логистическая поддержка,PT,Склады,RU
+Логистическая поддержка,PT,Транспортные подразделения,RU
+Логистикалық қамтамасыз ету,PT,Қоймалар,KZ
+Логистикалық қамтамасыз ету,PT,Көлік бөлімшелері,KZ
+Logistical Support,LE,Support logistique (FR),EN
+Logistical Support,LE,Логистическая поддержка@RU,EN
+Logistical Support,LE,Логистикалық қамтамасыз ету@KZ,EN
+Логистическая поддержка,LE,Support logistique (FR),RU
+Логистическая поддержка,LE,Logistical Support@EN,RU
+Логистическая поддержка,LE,Логистикалық қамтамасыз ету@KZ,RU
+Логистикалық қамтамасыз ету,LE,Support logistique (FR),KZ
+Логистикалық қамтамасыз ету,LE,Logistical Support@EN,KZ
+Логистикалық қамтамасыз ету,LE,Логистическая поддержка@RU,KZ
+Rules of Engagement,BT,Military Operation,EN
+Правила ведения боя,BT,Военная операция,RU
+Шабуыл және қорғаныс ережелері,BT,Әскери операция,KZ
+Rules of Engagement,SN,"Directives that define when, where, and how military forces may engage the enemy",EN
+Правила ведения боя,SN,"Инструкции, определяющие когда, где и как вооружённые силы могут вступать в бой",RU
+Шабуыл және қорғаныс ережелері,SN,"Әскери күштердің қашан, қай жерде және қалай жауға әрекет етуі керегін анықтайтын нұсқаулар",KZ
+Rules of Engagement,RT,Military Operation,EN
+Правила ведения боя,RT,Военная операция,RU
+Шабуыл және қорғаныс ережелері,RT,Әскери операция,KZ
+Rules of Engagement,NT,Engagement Protocol,EN
+Rules of Engagement,NT,Use of Force Guidelines,EN
+Правила ведения боя,NT,Протокол ведения боя,RU
+Правила ведения боя,NT,Руководство по применению силы,RU
+Шабуыл және қорғаныс ережелері,NT,Қарым-қатынас протоколы,KZ
+Шабуыл және қорғаныс ережелері,NT,Күш қолдану жөніндегі нұсқаулық,KZ
+Rules of Engagement,UF,Combat Rules,EN
+Rules of Engagement,UF,Engagement Rules,EN
+Правила ведения боя,UF,Правила боя,RU
+Правила ведения боя,UF,Правила взаимодействия,RU
+Шабуыл және қорғаныс ережелері,UF,Соғыс ережелері,KZ
+Шабуыл және қорғаныс ережелері,UF,Қарым-қатынас ережелері,KZ
+Rules of Engagement,PT,Orders,EN
+Rules of Engagement,PT,Directives,EN
+Правила ведения боя,PT,Приказы,RU
+Правила ведения боя,PT,Директивы,RU
+Шабуыл және қорғаныс ережелері,PT,Бұйрықтар,KZ
+Шабуыл және қорғаныс ережелері,PT,Нұсқаулар,KZ
+Rules of Engagement,LE,Règles d'engagement (FR),EN
+Rules of Engagement,LE,Правила ведения боя@RU,EN
+Rules of Engagement,LE,Шабуыл және қорғаныс ережелері@KZ,EN
+Правила ведения боя,LE,Règles d'engagement (FR),RU
+Правила ведения боя,LE,Rules of Engagement@EN,RU
+Правила ведения боя,LE,Шабуыл және қорғаныс ережелері@KZ,RU
+Шабуыл және қорғаныс ережелері,LE,Règles d'engagement (FR),KZ
+Шабуыл және қорғаныс ережелері,LE,Rules of Engagement@EN,KZ
+Шабуыл және қорғаныс ережелері,LE,Правила ведения боя@RU,KZ
+War Operation,BT,Military Operation,EN
+Военные действия,BT,Военная операция,RU
+Соғыс операциясы,BT,Әскери операция,KZ
+War Operation,SN,"Any organized operation conducted in the context of war, including combat and support actions",EN
+Военные действия,SN,"Любая организованная операция в условиях войны, включая боевые и вспомогательные действия",RU
+Соғыс операциясы,SN,"Соғыс жағдайында жүргізілетін кез келген ұйымдастырылған операция, соның ішінде шайқас және қолдау әрекеттері",KZ
+War Operation,UF,Military Operation,EN
+Военные действия,UF,Военная операция,RU
+Соғыс операциясы,UF,Әскери операция,KZ
+War Operation,NT,Offensive War Operation,EN
+War Operation,NT,Defensive War Operation,EN
+Военные действия,NT,Наступательная военная операция,RU
+Военные действия,NT,Оборонительная военная операция,RU
+Соғыс операциясы,NT,Шабуыл соғыс операциясы,KZ
+Соғыс операциясы,NT,Қорғаныс соғыс операциясы,KZ
+War Operation,RT,Strategic War Action,EN
+War Operation,RT,Tactical War Action,EN
+Военные действия,RT,Стратегическое военное действие,RU
+Военные действия,RT,Тактическое военное действие,RU
+Соғыс операциясы,RT,Стратегиялық соғыс әрекеті,KZ
+Соғыс операциясы,RT,Тактикалық соғыс әрекеті,KZ
+War Operation,PT,Combat Engagements,EN
+War Operation,PT,War Maneuvers,EN
+Военные действия,PT,Боевые столкновения,RU
+Военные действия,PT,Военные манёвры,RU
+Соғыс операциясы,PT,Шайқастар,KZ
+Соғыс операциясы,PT,Соғыс маневрлері,KZ
+War Operation,LE,Opération de guerre (FR),EN
+War Operation,LE,Военные действия@RU,EN
+War Operation,LE,Соғыс операциясы@KZ,EN
+Военные действия,LE,Opération de guerre (FR),RU
+Военные действия,LE,War Operation@EN,RU
+Военные действия,LE,Соғыс операциясы@KZ,RU
+Соғыс операциясы,LE,Opération de guerre (FR),KZ
+Соғыс операциясы,LE,War Operation@EN,KZ
+Соғыс операциясы,LE,Военные действия@RU,KZ
+Military Campaign,BT,Military Operation,EN
+Военная кампания,BT,Военная операция,RU
+Әскери науқан,BT,Әскери операция,KZ
+Military Campaign,SN,A series of military operations aimed at achieving strategic objectives within a particular theater or region,EN
+Военная кампания,SN,"Серия военных операций, направленных на достижение стратегических целей в определённом регионе",RU
+Әскери науқан,SN,Белгілі бір аймақта стратегиялық мақсаттарға жетуге бағытталған әскери операциялар сериясы,KZ
+Military Campaign,UF,Military Operation,EN
+Военная кампания,UF,Военная операция,RU
+Әскери науқан,UF,Әскери операция,KZ
+Military Campaign,NT,Siege Campaign,EN
+Military Campaign,NT,Offensive Campaign,EN
+Военная кампания,NT,Осада,RU
+Военная кампания,NT,Наступательная кампания,RU
+Әскери науқан,NT,Қоршау науқаны,KZ
+Әскери науқан,NT,Шабуыл науқаны,KZ
+Military Campaign,RT,Coordinated Military Action,EN
+Military Campaign,RT,Resource Planning,EN
+Военная кампания,RT,Координированные военные действия,RU
+Военная кампания,RT,Планирование ресурсов,RU
+Әскери науқан,RT,Үйлестірілген әскери әрекеттер,KZ
+Әскери науқан,RT,Ресурстарды жоспарлау,KZ
+Military Campaign,PT,Campaign Plans,EN
+Military Campaign,PT,Operational Units,EN
+Военная кампания,PT,Планы кампаний,RU
+Военная кампания,PT,Оперативные подразделения,RU
+Әскери науқан,PT,Науқан жоспарлары,KZ
+Әскери науқан,PT,Операциялық бөлімшелер,KZ
+Military Campaign,LE,Campagne militaire (FR),EN
+Military Campaign,LE,Военная кампания@RU,EN
+Military Campaign,LE,Әскери науқан@KZ,EN
+Военная кампания,LE,Campagne militaire (FR),RU
+Военная кампания,LE,Military Campaign@EN,RU
+Военная кампания,LE,Әскери науқан@KZ,RU
+Әскери науқан,LE,Campagne militaire (FR),KZ
+Әскери науқан,LE,Military Campaign@EN,KZ
+Әскери науқан,LE,Военная кампания@RU,KZ
+Operational Battle Action,BT,Military Operation,EN
+Оперативные боевые действия,BT,Военная операция,RU
+Операциялық шайқас әрекеті,BT,Әскери операция,KZ
+Operational Battle Action,SN,Specific actions undertaken during a military engagement or operation to achieve tactical objectives,EN
+Оперативные боевые действия,SN,"Конкретные действия, выполняемые во время военной операции для достижения тактических целей",RU
+Операциялық шайқас әрекеті,SN,Тактикалық мақсаттарға жету үшін әскери әрекет кезінде орындалатын нақты әрекеттер,KZ
+Operational Battle Action,UF,Military Operation,EN
+Оперативные боевые действия,UF,Военная операция,RU
+Операциялық шайқас әрекеті,UF,Әскери операция,KZ
+Operational Battle Action,NT,Direct Combat Action,EN
+Operational Battle Action,NT,Support Action,EN
+Оперативные боевые действия,NT,Прямое боевое действие,RU
+Оперативные боевые действия,NT,Поддерживающее действие,RU
+Операциялық шайқас әрекеті,NT,Тікелей шайқас әрекеті,KZ
+Операциялық шайқас әрекеті,NT,Қолдау әрекеті,KZ
+Operational Battle Action,RT,Tactical Planning,EN
+Operational Battle Action,RT,Resource Coordination,EN
+Оперативные боевые действия,RT,Тактическое планирование,RU
+Оперативные боевые действия,RT,Координация ресурсов,RU
+Операциялық шайқас әрекеті,RT,Тактикалық жоспарлау,KZ
+Операциялық шайқас әрекеті,RT,Ресурстарды үйлестіру,KZ
+Operational Battle Action,PT,Engagements,EN
+Operational Battle Action,PT,Operational Units,EN
+Оперативные боевые действия,PT,Столкновения,RU
+Оперативные боевые действия,PT,Оперативные подразделения,RU
+Операциялық шайқас әрекеті,PT,Шайқастар,KZ
+Операциялық шайқас әрекеті,PT,Операциялық бөлімшелер,KZ
+Operational Battle Action,LE,Action de combat opérationnelle (FR),EN
+Operational Battle Action,LE,Оперативные боевые действия@RU,EN
+Operational Battle Action,LE,Операциялық шайқас әрекеті@KZ,EN
+Оперативные боевые действия,LE,Action de combat opérationnelle (FR),RU
+Оперативные боевые действия,LE,Operational Battle Action@EN,RU
+Оперативные боевые действия,LE,Операциялық шайқас әрекеті@KZ,RU
+Операциялық шайқас әрекеті,LE,Action de combat opérationnelle (FR),KZ
+Операциялық шайқас әрекеті,LE,Operational Battle Action@EN,KZ
+Операциялық шайқас әрекеті,LE,Оперативные боевые действия@RU,KZ
